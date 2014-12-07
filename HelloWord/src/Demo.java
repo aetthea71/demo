@@ -11,5 +11,13 @@ public class Demo {
 	public static int sum(int x, int y){		
 		return (x+y);
 	}
+	
+	public static int mak(int x, int y){
+		if (x > y) {
+			return x;
+		}
+		else
+			return y;
+	}
 
 }
